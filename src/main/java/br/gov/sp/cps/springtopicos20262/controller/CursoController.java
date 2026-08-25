@@ -1,7 +1,9 @@
 package br.gov.sp.cps.springtopicos20262.controller;
 
+import java.net.URI;
 import java.util.List;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -25,8 +27,9 @@ public class CursoController {
     }
 
     @PostMapping
-    public Curso cadastrar(@RequestBody Curso curso) {
-        return service.cadastrar(curso);
+    public ResponseEntity<Curso> cadastrar(@RequestBody Curso curso) {
+        Curso novo = service.cadastrar(curso);
+        return ResponseEntity.created(URI.create("/curso/" + novo.getId())).body(novo);
     }
 
     @GetMapping
