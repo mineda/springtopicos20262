@@ -53,7 +53,7 @@ insert into mat_matricula(mat_aln_id, mat_dis_id)
 
 create user spring with password 'pass123';
 
-# Tabela do exemplo
+-- Tabela do exemplo
 create table tra_trabalho (
   tra_id bigint generated always as identity,
   tra_titulo varchar(100) not null unique,
