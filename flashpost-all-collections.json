@@ -2,13 +2,13 @@
   "app": "Flashpost",
   "version": "1.0",
   "type": "all-collections",
-  "exportedDate": "21-Sep-2026 13:08:14",
+  "exportedDate": "18-Oct-2026 01:31:28",
   "collections": [
     {
-      "id": "daaada27-046e-4881-ab08-c017984eb435",
+      "id": "7cc7b086-674f-4fb9-a905-9b94c1d5dbd6",
       "parent": "0",
-      "text": "TrabalhoController",
-      "createdTime": "21-Sep-2026 12:34:16",
+      "text": "Keycloak",
+      "createdTime": "18-Oct-2026 01:20:26",
       "droppable": true,
       "relativeIndex": 0,
       "data": {
@@ -17,58 +17,26 @@
       }
     },
     {
-      "id": "99e9cef7-96cb-40eb-98a7-f74579d44e93",
-      "parent": "daaada27-046e-4881-ab08-c017984eb435",
-      "text": "Listar todos",
-      "createdTime": "21-Sep-2026 09:34:21",
+      "id": "74965184-5493-4dd6-ba50-981412f02947",
+      "parent": "7cc7b086-674f-4fb9-a905-9b94c1d5dbd6",
+      "text": "Login",
+      "createdTime": "17-Oct-2026 22:20:31",
       "droppable": false,
       "relativeIndex": 0,
       "data": {
-        "id": "99e9cef7-96cb-40eb-98a7-f74579d44e93",
-        "method": "get",
-        "name": "Listar todos",
-        "url": "localhost:8080/trabalho",
-        "createdTime": "21-Sep-2026 09:34:21",
-        "treeNodeType": "request"
-      }
-    },
-    {
-      "id": "3265655e-caca-44ad-9bf3-efbc039e04dd",
-      "parent": "daaada27-046e-4881-ab08-c017984eb435",
-      "text": "Cadastrar",
-      "createdTime": "21-Sep-2026 09:50:50",
-      "droppable": false,
-      "relativeIndex": 0,
-      "data": {
-        "id": "3265655e-caca-44ad-9bf3-efbc039e04dd",
+        "id": "74965184-5493-4dd6-ba50-981412f02947",
         "method": "post",
-        "name": "Cadastrar",
-        "url": "localhost:8080/trabalho",
-        "createdTime": "21-Sep-2026 09:50:50",
+        "name": "Login",
+        "url": "http://keycloak:9080/realms/demo/protocol/openid-connect/token",
+        "createdTime": "17-Oct-2026 22:20:31",
         "treeNodeType": "request"
       }
     },
     {
-      "id": "37cb094a-87a4-4c9b-bbf5-e1bd96c7d2c9",
-      "parent": "daaada27-046e-4881-ab08-c017984eb435",
-      "text": "Consulta",
-      "createdTime": "21-Sep-2026 10:04:57",
-      "droppable": false,
-      "relativeIndex": 0,
-      "data": {
-        "id": "37cb094a-87a4-4c9b-bbf5-e1bd96c7d2c9",
-        "method": "get",
-        "name": "Consulta",
-        "url": "localhost:8080/trabalho/buscar?ra=1&titulo=e",
-        "createdTime": "21-Sep-2026 10:04:57",
-        "treeNodeType": "request"
-      }
-    },
-    {
-      "id": "e86510c5-d384-40d7-aae6-6f048408cecc",
+      "id": "11076338-c67c-47c1-8e41-4f968d03f757",
       "parent": "0",
-      "text": "DisciplinaController",
-      "createdTime": "25-Aug-2026 13:25:37",
+      "text": "CursoController",
+      "createdTime": "18-Oct-2026 01:12:14",
       "droppable": true,
       "relativeIndex": 1,
       "data": {
@@ -77,10 +45,38 @@
       }
     },
     {
-      "id": "2ad31944-961f-442d-949e-71667c5f16ae",
-      "parent": "e86510c5-d384-40d7-aae6-6f048408cecc",
+      "id": "2b8eea23-d89e-4db9-ad11-84ca4ca51a7c",
+      "parent": "11076338-c67c-47c1-8e41-4f968d03f757",
+      "text": "cadastrar",
+      "createdTime": "18-Oct-2026 01:12:14",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "2baf089b-6fa6-49f3-86d9-d00f6b2dbb0a",
+        "method": "post",
+        "name": "cadastrar",
+        "url": "localhost:8080/curso",
+        "createdTime": "24-Aug-2026 10:34:19",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "ae7bd711-e38d-48af-bb02-8541eac87f99",
+      "parent": "0",
+      "text": "DisciplinaController",
+      "createdTime": "18-Oct-2026 01:12:14",
+      "droppable": true,
+      "relativeIndex": 2,
+      "data": {
+        "treeNodeType": "collection",
+        "variableId": ""
+      }
+    },
+    {
+      "id": "183ae9f1-5b58-447c-ae4a-1d8f14bfb8ea",
+      "parent": "ae7bd711-e38d-48af-bb02-8541eac87f99",
       "text": "todas",
-      "createdTime": "25-Aug-2026 10:25:42",
+      "createdTime": "18-Oct-2026 01:12:14",
       "droppable": false,
       "relativeIndex": 0,
       "data": {
@@ -93,10 +89,10 @@
       }
     },
     {
-      "id": "cfa197a2-c0b1-4c4a-9ab9-77ab31cb305a",
-      "parent": "e86510c5-d384-40d7-aae6-6f048408cecc",
+      "id": "023514cd-98ac-468c-88c6-57e8defe9b95",
+      "parent": "ae7bd711-e38d-48af-bb02-8541eac87f99",
       "text": "buscarPorId",
-      "createdTime": "25-Aug-2026 10:26:14",
+      "createdTime": "18-Oct-2026 01:12:14",
       "droppable": false,
       "relativeIndex": 0,
       "data": {
@@ -109,10 +105,10 @@
       }
     },
     {
-      "id": "0e7d3c14-0149-42e4-8a01-6e0bda4203ec",
-      "parent": "e86510c5-d384-40d7-aae6-6f048408cecc",
+      "id": "41ccd236-7f20-4cba-b111-09828cea462f",
+      "parent": "ae7bd711-e38d-48af-bb02-8541eac87f99",
       "text": "buscarPorIdParam",
-      "createdTime": "25-Aug-2026 10:26:56",
+      "createdTime": "18-Oct-2026 01:12:14",
       "droppable": false,
       "relativeIndex": 0,
       "data": {
@@ -125,10 +121,10 @@
       }
     },
     {
-      "id": "eeff72ec-242c-4bf4-b600-834e7d48d065",
-      "parent": "e86510c5-d384-40d7-aae6-6f048408cecc",
+      "id": "75c27fcb-6f56-4340-bd67-50889fbdd893",
+      "parent": "ae7bd711-e38d-48af-bb02-8541eac87f99",
       "text": "cadastrar",
-      "createdTime": "25-Aug-2026 10:28:00",
+      "createdTime": "18-Oct-2026 01:12:14",
       "droppable": false,
       "relativeIndex": 0,
       "data": {
@@ -141,41 +137,305 @@
       }
     },
     {
-      "id": "02a2805c-c17e-40d0-a3bb-213f43bfb7fa",
+      "id": "7c1ea032-781b-4a3f-9832-993689279c54",
       "parent": "0",
-      "text": "CursoController",
-      "createdTime": "24-Aug-2026 13:34:07",
+      "text": "TrabalhoController",
+      "createdTime": "18-Oct-2026 01:12:14",
       "droppable": true,
-      "relativeIndex": 2,
+      "relativeIndex": 3,
       "data": {
         "treeNodeType": "collection",
         "variableId": ""
       }
     },
     {
-      "id": "2baf089b-6fa6-49f3-86d9-d00f6b2dbb0a",
-      "parent": "02a2805c-c17e-40d0-a3bb-213f43bfb7fa",
-      "text": "cadastrar",
-      "createdTime": "24-Aug-2026 10:34:19",
+      "id": "194c49ee-95e3-4505-97c0-aace2d244838",
+      "parent": "7c1ea032-781b-4a3f-9832-993689279c54",
+      "text": "Listar todos",
+      "createdTime": "18-Oct-2026 01:12:14",
       "droppable": false,
       "relativeIndex": 0,
       "data": {
-        "id": "2baf089b-6fa6-49f3-86d9-d00f6b2dbb0a",
+        "id": "99e9cef7-96cb-40eb-98a7-f74579d44e93",
+        "method": "get",
+        "name": "Listar todos",
+        "url": "localhost:8080/trabalho",
+        "createdTime": "21-Sep-2026 09:34:21",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "4a8f01de-56b9-4116-9f4f-83e818143938",
+      "parent": "7c1ea032-781b-4a3f-9832-993689279c54",
+      "text": "Cadastrar",
+      "createdTime": "18-Oct-2026 01:12:14",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "3265655e-caca-44ad-9bf3-efbc039e04dd",
         "method": "post",
-        "name": "cadastrar",
-        "url": "localhost:8080/curso",
-        "createdTime": "24-Aug-2026 10:34:19",
+        "name": "Cadastrar",
+        "url": "localhost:8080/trabalho",
+        "createdTime": "21-Sep-2026 09:50:50",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "2fc3bbd6-ad58-4e76-ab3f-bc9437cda926",
+      "parent": "7c1ea032-781b-4a3f-9832-993689279c54",
+      "text": "Consulta",
+      "createdTime": "18-Oct-2026 01:12:14",
+      "droppable": false,
+      "relativeIndex": 0,
+      "data": {
+        "id": "37cb094a-87a4-4c9b-bbf5-e1bd96c7d2c9",
+        "method": "get",
+        "name": "Consulta",
+        "url": "localhost:8080/trabalho/buscar?ra=1&titulo=e",
+        "createdTime": "21-Sep-2026 10:04:57",
         "treeNodeType": "request"
       }
     }
   ],
   "requests": [
     {
-      "id": "99e9cef7-96cb-40eb-98a7-f74579d44e93",
-      "name": "Listar todos",
-      "url": "localhost:8080/trabalho",
+      "id": "74965184-5493-4dd6-ba50-981412f02947",
+      "name": "Login",
+      "url": "http://keycloak:9080/realms/demo/protocol/openid-connect/token",
+      "method": "post",
+      "createdTime": "17-Oct-2026 22:20:31",
+      "selectedEnvironmentId": "9db9c97a-3e42-42bf-9c8e-1800238046ce",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/x-www-form-urlencoded",
+          "isFixed": false
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "formurlencoded",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": true,
+            "key": "grant_type",
+            "value": "password"
+          },
+          {
+            "isChecked": true,
+            "key": "client_id",
+            "value": "frontend"
+          },
+          {
+            "isChecked": true,
+            "key": "username",
+            "value": "appadmin"
+          },
+          {
+            "isChecked": true,
+            "key": "password",
+            "value": "pass123"
+          },
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "2b8eea23-d89e-4db9-ad11-84ca4ca51a7c",
+      "name": "cadastrar",
+      "url": "localhost:8080/curso",
+      "method": "post",
+      "createdTime": "18-Oct-2026 01:12:14",
+      "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "{\n  \"nome\": \"Logística\",\n  \"sigla\": \"LOG\"\n}",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "183ae9f1-5b58-447c-ae4a-1d8f14bfb8ea",
+      "name": "todas",
+      "url": "localhost:8080/disciplina",
       "method": "get",
-      "createdTime": "21-Sep-2026 09:34:21",
+      "createdTime": "18-Oct-2026 01:12:14",
       "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
       "notes": "",
       "params": [
@@ -271,11 +531,427 @@
       "queryParamMeta": {}
     },
     {
-      "id": "3265655e-caca-44ad-9bf3-efbc039e04dd",
+      "id": "023514cd-98ac-468c-88c6-57e8defe9b95",
+      "name": "buscarPorId",
+      "url": "localhost:8080/disciplina/1",
+      "method": "get",
+      "createdTime": "18-Oct-2026 01:12:14",
+      "selectedEnvironmentId": "9db9c97a-3e42-42bf-9c8e-1800238046ce",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSVjJub3FUMVdwem5MY0RjZmRuOWl0Wmp2bGRidUs5RUNGRkZJVnY2ajEwIn0.eyJleHAiOjE3OTIyODcwMjcsImlhdCI6MTc5MjI4NjcyNywianRpIjoib25ydHJvOmJjN2VmZTM3LWEzZjItNTk2Mi1iMzA3LWUyOWRmNWExMjQ4ZiIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6OTA4MC9yZWFsbXMvZGVtbyIsInN1YiI6ImE1MTQ4YmMxLTE2YTUtNDExNC05MmNhLTRkYjBlOWRkYWVlNSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImZyb250ZW5kIiwic2lkIjoiSkpCelRqN0F6SUNvQmdmcjRhckF3OHBlIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjUxNzMiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImFkbWluIl19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6IkFkbWluIFVzZXIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhcHBhZG1pbiIsImdpdmVuX25hbWUiOiJBZG1pbiIsImZhbWlseV9uYW1lIjoiVXNlciIsImVtYWlsIjoiYXBwYWRtaW5AZXhhbXBsZS5jb20ifQ.O1lC2OrYb7z6vPmh9Fue5P5ROXie50SWjvUdU3LHz3uJ424VaGWYqdrZx4r4PRVz_OxUV9v4b72-wSP-djpVekzg1tsPJ05pheHEfYSy8KW7tK25k0WK0SI2BNQwbqghca2zE3cv1fciioBKgHVXAHUPncL2t5Y8d3-862om6rWP_qXFeiqi5R_H8N9XM4hKqELr6zzOtJw4OKTguxMeuEt4YlwVQxDJKLhZWrtF95yTbWF3vV_n3qj-Zp0vjuNOXD1Gb9F9YRjlA9t8PeVzXh26onQ5R40rz2zFP1Gw3LzarrzUheHoH84lq15ikh_QpT2lbMk_ZQOd4G1VL3I8Rg",
+          "isChecked": true
+        },
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "body": {
+        "bodyType": "formurlencoded",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "41ccd236-7f20-4cba-b111-09828cea462f",
+      "name": "buscarPorIdParam",
+      "url": "localhost:8080/disciplina/pesquisa?id=1",
+      "method": "get",
+      "createdTime": "18-Oct-2026 01:12:14",
+      "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": true,
+          "key": "id",
+          "value": "1"
+        },
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "75c27fcb-6f56-4340-bd67-50889fbdd893",
+      "name": "cadastrar",
+      "url": "localhost:8080/disciplina",
+      "method": "post",
+      "createdTime": "18-Oct-2026 01:12:14",
+      "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "{\n  \"alunos\": [\n    {\n      \"id\": 2\n    }\n  ],\n  \"cargaHoraria\": 80,\n  \"codigo\": \"TST001\",\n  \"curso\": {\n    \"id\": 1\n  },\n  \"nome\": \"Teste de Software\"\n}",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "194c49ee-95e3-4505-97c0-aace2d244838",
+      "name": "Listar todos",
+      "url": "localhost:8080/trabalho",
+      "method": "get",
+      "createdTime": "18-Oct-2026 01:12:14",
+      "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
+      "notes": "",
+      "params": [
+        {
+          "isChecked": false,
+          "key": "",
+          "value": ""
+        }
+      ],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "*/*",
+          "isChecked": true
+        },
+        {
+          "key": "User-Agent",
+          "value": "Flashpost",
+          "isChecked": true
+        },
+        {
+          "key": "",
+          "value": "",
+          "isChecked": false
+        }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "urlencoded": [
+          {
+            "isChecked": false,
+            "key": "",
+            "value": ""
+          }
+        ],
+        "raw": {
+          "data": "",
+          "lang": "json"
+        },
+        "binary": {
+          "fileName": "",
+          "data": {},
+          "contentTypeOption": "manual"
+        },
+        "graphql": {
+          "query": "",
+          "variables": ""
+        }
+      },
+      "tests": [
+        {
+          "parameter": "",
+          "action": "",
+          "expectedValue": ""
+        }
+      ],
+      "setvar": [
+        {
+          "parameter": "",
+          "key": "",
+          "variableName": ""
+        }
+      ],
+      "preRequestScript": "",
+      "postResponseScript": "",
+      "disableCookieJar": false,
+      "requiredPathParams": [],
+      "requiredBodyParams": [],
+      "pathParamMeta": {},
+      "queryParamMeta": {}
+    },
+    {
+      "id": "4a8f01de-56b9-4116-9f4f-83e818143938",
       "name": "Cadastrar",
       "url": "localhost:8080/trabalho",
       "method": "post",
-      "createdTime": "21-Sep-2026 09:50:50",
+      "createdTime": "18-Oct-2026 01:12:14",
       "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
       "notes": "",
       "params": [
@@ -377,11 +1053,11 @@
       "queryParamMeta": {}
     },
     {
-      "id": "37cb094a-87a4-4c9b-bbf5-e1bd96c7d2c9",
+      "id": "2fc3bbd6-ad58-4e76-ab3f-bc9437cda926",
       "name": "Consulta",
       "url": "localhost:8080/trabalho/buscar?ra=1&titulo=e",
       "method": "get",
-      "createdTime": "21-Sep-2026 10:04:57",
+      "createdTime": "18-Oct-2026 01:12:14",
       "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
       "notes": "",
       "params": [
@@ -485,537 +1161,20 @@
       "requiredBodyParams": [],
       "pathParamMeta": {},
       "queryParamMeta": {}
-    },
-    {
-      "id": "2ad31944-961f-442d-949e-71667c5f16ae",
-      "name": "todas",
-      "url": "localhost:8080/disciplina",
-      "method": "get",
-      "createdTime": "25-Aug-2026 10:25:42",
-      "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
-      "notes": "",
-      "params": [
-        {
-          "isChecked": false,
-          "key": "",
-          "value": ""
-        }
-      ],
-      "pathParams": [],
-      "auth": {
-        "authType": "noauth",
-        "userName": "",
-        "password": "",
-        "addTo": "queryparams",
-        "showPwd": false,
-        "tokenPrefix": "",
-        "aws": {
-          "service": "",
-          "region": "",
-          "accessKey": "",
-          "secretAccessKey": "",
-          "sessionToken": ""
-        }
-      },
-      "headers": [
-        {
-          "key": "Accept",
-          "value": "*/*",
-          "isChecked": true
-        },
-        {
-          "key": "User-Agent",
-          "value": "Flashpost",
-          "isChecked": true
-        },
-        {
-          "key": "",
-          "value": "",
-          "isChecked": false
-        }
-      ],
-      "body": {
-        "bodyType": "none",
-        "formdata": [
-          {
-            "isChecked": false,
-            "key": "",
-            "value": ""
-          }
-        ],
-        "urlencoded": [
-          {
-            "isChecked": false,
-            "key": "",
-            "value": ""
-          }
-        ],
-        "raw": {
-          "data": "",
-          "lang": "json"
-        },
-        "binary": {
-          "fileName": "",
-          "data": {},
-          "contentTypeOption": "manual"
-        },
-        "graphql": {
-          "query": "",
-          "variables": ""
-        }
-      },
-      "tests": [
-        {
-          "parameter": "",
-          "action": "",
-          "expectedValue": ""
-        }
-      ],
-      "setvar": [
-        {
-          "parameter": "",
-          "key": "",
-          "variableName": ""
-        }
-      ],
-      "preRequestScript": "",
-      "postResponseScript": "",
-      "disableCookieJar": false,
-      "requiredPathParams": [],
-      "requiredBodyParams": [],
-      "pathParamMeta": {},
-      "queryParamMeta": {}
-    },
-    {
-      "id": "cfa197a2-c0b1-4c4a-9ab9-77ab31cb305a",
-      "name": "buscarPorId",
-      "url": "localhost:8080/disciplina/1",
-      "method": "get",
-      "createdTime": "25-Aug-2026 10:26:14",
-      "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
-      "notes": "",
-      "params": [
-        {
-          "isChecked": false,
-          "key": "",
-          "value": ""
-        }
-      ],
-      "pathParams": [],
-      "auth": {
-        "authType": "noauth",
-        "userName": "",
-        "password": "",
-        "addTo": "queryparams",
-        "showPwd": false,
-        "tokenPrefix": "",
-        "aws": {
-          "service": "",
-          "region": "",
-          "accessKey": "",
-          "secretAccessKey": "",
-          "sessionToken": ""
-        }
-      },
-      "headers": [
-        {
-          "key": "Accept",
-          "value": "*/*",
-          "isChecked": true
-        },
-        {
-          "key": "User-Agent",
-          "value": "Flashpost",
-          "isChecked": true
-        },
-        {
-          "key": "",
-          "value": "",
-          "isChecked": false
-        }
-      ],
-      "body": {
-        "bodyType": "none",
-        "formdata": [
-          {
-            "isChecked": false,
-            "key": "",
-            "value": ""
-          }
-        ],
-        "urlencoded": [
-          {
-            "isChecked": false,
-            "key": "",
-            "value": ""
-          }
-        ],
-        "raw": {
-          "data": "",
-          "lang": "json"
-        },
-        "binary": {
-          "fileName": "",
-          "data": {},
-          "contentTypeOption": "manual"
-        },
-        "graphql": {
-          "query": "",
-          "variables": ""
-        }
-      },
-      "tests": [
-        {
-          "parameter": "",
-          "action": "",
-          "expectedValue": ""
-        }
-      ],
-      "setvar": [
-        {
-          "parameter": "",
-          "key": "",
-          "variableName": ""
-        }
-      ],
-      "preRequestScript": "",
-      "postResponseScript": "",
-      "disableCookieJar": false,
-      "requiredPathParams": [],
-      "requiredBodyParams": [],
-      "pathParamMeta": {},
-      "queryParamMeta": {}
-    },
-    {
-      "id": "0e7d3c14-0149-42e4-8a01-6e0bda4203ec",
-      "name": "buscarPorIdParam",
-      "url": "localhost:8080/disciplina/pesquisa?id=1",
-      "method": "get",
-      "createdTime": "25-Aug-2026 10:26:56",
-      "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
-      "notes": "",
-      "params": [
-        {
-          "isChecked": true,
-          "key": "id",
-          "value": "1"
-        },
-        {
-          "isChecked": false,
-          "key": "",
-          "value": ""
-        }
-      ],
-      "pathParams": [],
-      "auth": {
-        "authType": "noauth",
-        "userName": "",
-        "password": "",
-        "addTo": "queryparams",
-        "showPwd": false,
-        "tokenPrefix": "",
-        "aws": {
-          "service": "",
-          "region": "",
-          "accessKey": "",
-          "secretAccessKey": "",
-          "sessionToken": ""
-        }
-      },
-      "headers": [
-        {
-          "key": "Accept",
-          "value": "*/*",
-          "isChecked": true
-        },
-        {
-          "key": "User-Agent",
-          "value": "Flashpost",
-          "isChecked": true
-        },
-        {
-          "key": "",
-          "value": "",
-          "isChecked": false
-        }
-      ],
-      "body": {
-        "bodyType": "none",
-        "formdata": [
-          {
-            "isChecked": false,
-            "key": "",
-            "value": ""
-          }
-        ],
-        "urlencoded": [
-          {
-            "isChecked": false,
-            "key": "",
-            "value": ""
-          }
-        ],
-        "raw": {
-          "data": "",
-          "lang": "json"
-        },
-        "binary": {
-          "fileName": "",
-          "data": {},
-          "contentTypeOption": "manual"
-        },
-        "graphql": {
-          "query": "",
-          "variables": ""
-        }
-      },
-      "tests": [
-        {
-          "parameter": "",
-          "action": "",
-          "expectedValue": ""
-        }
-      ],
-      "setvar": [
-        {
-          "parameter": "",
-          "key": "",
-          "variableName": ""
-        }
-      ],
-      "preRequestScript": "",
-      "postResponseScript": "",
-      "disableCookieJar": false,
-      "requiredPathParams": [],
-      "requiredBodyParams": [],
-      "pathParamMeta": {},
-      "queryParamMeta": {}
-    },
-    {
-      "id": "eeff72ec-242c-4bf4-b600-834e7d48d065",
-      "name": "cadastrar",
-      "url": "localhost:8080/disciplina",
-      "method": "post",
-      "createdTime": "25-Aug-2026 10:28:00",
-      "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
-      "notes": "",
-      "params": [
-        {
-          "isChecked": false,
-          "key": "",
-          "value": ""
-        }
-      ],
-      "pathParams": [],
-      "auth": {
-        "authType": "noauth",
-        "userName": "",
-        "password": "",
-        "addTo": "queryparams",
-        "showPwd": false,
-        "tokenPrefix": "",
-        "aws": {
-          "service": "",
-          "region": "",
-          "accessKey": "",
-          "secretAccessKey": "",
-          "sessionToken": ""
-        }
-      },
-      "headers": [
-        {
-          "key": "Accept",
-          "value": "*/*",
-          "isChecked": true
-        },
-        {
-          "key": "User-Agent",
-          "value": "Flashpost",
-          "isChecked": true
-        },
-        {
-          "isChecked": true,
-          "key": "Content-Type",
-          "value": "application/json",
-          "isFixed": false
-        },
-        {
-          "key": "",
-          "value": "",
-          "isChecked": false
-        }
-      ],
-      "body": {
-        "bodyType": "raw",
-        "formdata": [
-          {
-            "isChecked": false,
-            "key": "",
-            "value": ""
-          }
-        ],
-        "urlencoded": [
-          {
-            "isChecked": false,
-            "key": "",
-            "value": ""
-          }
-        ],
-        "raw": {
-          "data": "{\n  \"alunos\": [\n    {\n      \"id\": 2\n    }\n  ],\n  \"cargaHoraria\": 80,\n  \"codigo\": \"TST001\",\n  \"curso\": {\n    \"id\": 1\n  },\n  \"nome\": \"Teste de Software\"\n}",
-          "lang": "json"
-        },
-        "binary": {
-          "fileName": "",
-          "data": {},
-          "contentTypeOption": "manual"
-        },
-        "graphql": {
-          "query": "",
-          "variables": ""
-        }
-      },
-      "tests": [
-        {
-          "parameter": "",
-          "action": "",
-          "expectedValue": ""
-        }
-      ],
-      "setvar": [
-        {
-          "parameter": "",
-          "key": "",
-          "variableName": ""
-        }
-      ],
-      "preRequestScript": "",
-      "postResponseScript": "",
-      "disableCookieJar": false,
-      "requiredPathParams": [],
-      "requiredBodyParams": [],
-      "pathParamMeta": {},
-      "queryParamMeta": {}
-    },
-    {
-      "id": "2baf089b-6fa6-49f3-86d9-d00f6b2dbb0a",
-      "name": "cadastrar",
-      "url": "localhost:8080/curso",
-      "method": "post",
-      "createdTime": "24-Aug-2026 10:34:19",
-      "selectedEnvironmentId": "a3a111e1-c684-401a-a95c-3403b2e4268c",
-      "notes": "",
-      "params": [
-        {
-          "isChecked": false,
-          "key": "",
-          "value": ""
-        }
-      ],
-      "pathParams": [],
-      "auth": {
-        "authType": "noauth",
-        "userName": "",
-        "password": "",
-        "addTo": "queryparams",
-        "showPwd": false,
-        "tokenPrefix": "",
-        "aws": {
-          "service": "",
-          "region": "",
-          "accessKey": "",
-          "secretAccessKey": "",
-          "sessionToken": ""
-        }
-      },
-      "headers": [
-        {
-          "key": "Accept",
-          "value": "*/*",
-          "isChecked": true
-        },
-        {
-          "key": "User-Agent",
-          "value": "Flashpost",
-          "isChecked": true
-        },
-        {
-          "isChecked": true,
-          "key": "Content-Type",
-          "value": "application/json",
-          "isFixed": false
-        },
-        {
-          "key": "",
-          "value": "",
-          "isChecked": false
-        }
-      ],
-      "body": {
-        "bodyType": "raw",
-        "formdata": [
-          {
-            "isChecked": false,
-            "key": "",
-            "value": ""
-          }
-        ],
-        "urlencoded": [
-          {
-            "isChecked": false,
-            "key": "",
-            "value": ""
-          }
-        ],
-        "raw": {
-          "data": "{\n  \"nome\": \"Logística\",\n  \"sigla\": \"LOG\"\n}",
-          "lang": "json"
-        },
-        "binary": {
-          "fileName": "",
-          "data": {},
-          "contentTypeOption": "manual"
-        },
-        "graphql": {
-          "query": "",
-          "variables": ""
-        }
-      },
-      "tests": [
-        {
-          "parameter": "",
-          "action": "",
-          "expectedValue": ""
-        }
-      ],
-      "setvar": [
-        {
-          "parameter": "",
-          "key": "",
-          "variableName": ""
-        }
-      ],
-      "preRequestScript": "",
-      "postResponseScript": "",
-      "disableCookieJar": false,
-      "requiredPathParams": [],
-      "requiredBodyParams": [],
-      "pathParamMeta": {},
-      "queryParamMeta": {}
     }
   ],
   "variables": [
     {
-      "id": "a05bdf7d-4e48-40e1-8383-80d55dff26a2",
+      "id": "fa2d2920-69a9-406d-84b7-e277c0e7def3",
       "name": "Global",
-      "createdTime": "24-Aug-2026 13:33:10",
+      "createdTime": "17-Oct-2026 23:52:02",
       "isActive": false,
       "data": []
     },
     {
-      "id": "a3a111e1-c684-401a-a95c-3403b2e4268c",
+      "id": "9db9c97a-3e42-42bf-9c8e-1800238046ce",
       "name": "Application",
-      "createdTime": "24-Aug-2026 13:33:10",
+      "createdTime": "17-Oct-2026 23:52:02",
       "isActive": true,
       "data": []
     }
